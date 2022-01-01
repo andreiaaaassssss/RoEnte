@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    
+
+        </script>
+        <script>
+        
+            $.getJSON("https://api.ip2loc.com/R7YDQCCk2DOesJq8FIfltlfnJWvBPg6T/detect?include=country_name", function(result){
+                
+                var stat=(result.country_name);
+                document.getElementById("stat").innerHTML=stat+"";
+            });
+        
+                $.getJSON("https://api.ip2loc.com/R7YDQCCk2DOesJq8FIfltlfnJWvBPg6T/detect?include=time_zone", function(result){
+            
+                    var zona =(result.time_zone);
+                    document.getElementById("regiune").innerHTML= zona;
+                });
+
+
+                    $.getJSON("https://api.ip2loc.com/R7YDQCCk2DOesJq8FIfltlfnJWvBPg6T/detect?include=city", function(result){
+            
+                        var oras=(result.city);
+                        document.getElementById("oras").innerHTML=oras;
+                    });
+                    
+              
+        </script>
+        
+          <script>
+         
+        /* Add "https://api.ipify.org?format=json" statement
+                   this will communicate with the ipify servers in
+                   order to retrieve the IP address $.getJSON will
+                   load JSON-encoded data from the server using a
+                   GET HTTP request */
+                    
+        $.getJSON("https://api.ipify.org?format=json", function(data) {
+             
+            // Setting text of element P with id gfg
+            $("#gfg").html(data.ip);
+        })
+        </script>
+</head>
+
+<body>
+
+    </script>
+</script>
+    <header> <span id=titL1>R</span><span id=titL2>o</span>Ente  <span><img  id="titIMG"src="https://cdn.discordapp.com/attachments/327099073981186048/926577963384832040/download_3.png"></span> </header>
+<div> </div>
+
+
+
+<div align="center"> <div id=titlu-categorie>Games:</div>
+<img  src="https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png" alt="">
+<div id=bg_down> <span id=Nume_joc> Skirim -</span> <span id=down> Donwload </span> <span> <a href="https://drive.google.com/file/d/1x_sS_sMLhwpWHvagQbmZzkvkK277IADz/view?usp=sharing"> <img id=down_but src="https://cdn.discordapp.com/attachments/327099073981186048/926661709521907782/download_4.png" alt=""></a></span>  </div>
+</div>
+
+
+<div align=>
+    
+<footer align="center" id="footer"> ALPHA</footer></div>
+<a  id="footer" > <div href="http://creativecommons.org/licenses/by"><img  id="footer"  src="https://cdn.discordapp.com/attachments/327099073981186048/926595776963026965/255px-Flag_of_Romania.svg.png"></div></div>
+<div id="footer-text"> 
+     Your IP : 
+    <span id="gfg"></span>
+
+
+   
+
+
+    
+  
+</div>
+
+<div id="footer-text3" > 
+    
+   <span id=ora> Time:</span> <span id="txt" ></span>
+</div>
+
+
+<div id="footer-text2" > 
+    
+   Info:  
+   <span id="stat"></span> <span> - </span>
+   <span id="regiune"></span><span> - </span>
+   <span id="oras"></span>
+</div>
+
+<div id="footer-text2" > 
+    
+   
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<script>
+    startTime();
+    function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+      setTimeout(startTime, 1000);
+    }
+    
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+    </script>
