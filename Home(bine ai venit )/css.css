@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+header{
+ color: rgb(90, 99, 233);
+ text-align: center;
+ font-family: 'Pushster', cursive;
+ font-size: 50px;
+ background: rgb(34, 34, 34);
+ border-radius:10px;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+ -ms-border-radius:10px;
+ -o-border-radius:10px;
+margin:10px;
+
+ 
+}
+span[id="titL1"]{
+    color: rgb(211, 82, 82);
+}
+span[id="titL2"]{
+    color: rgb(224, 189, 75);
+}
+img[id="titIMG"]{
+    width: 40px;
+
+}
+
+body{
+    background: rgb(20, 25, 27);
+ background-image: url("https://cdn.discordapp.com/attachments/327099073981186048/926585510049226772/918391_1.jpg");
+
+ background-repeat: none;
+ background-size: cover;
+ margin: 0%;
+
+}
+footer[id="footer"]{
+    color:aliceblue;
+    bottom: 0%;
+font-size: 20px;
+background: rgb(7, 10, 20);
+width: 100%;
+}
+footer{
+   
+    bottom:0px;
+    position:fixed;
+    text-align: center;
+    font-style: center;
+    align-self:flex-end;
+    
+}
+img[id="footer"]{
+    color:aliceblue;
+    bottom: 0%;
+ position:absolute;
+ width: 34px;
+ position:fixed;
+  
+}
+div[id="footer-text"]{
+    color: rgb(255, 255, 255);
+    bottom:0%;
+    position:absolute;
+    text-align: center;
+    font-style: center;
+    margin-left:50px;    position:fixed;
+}
+
+span[id="gfg"]{
+    color: aqua;
+    bottom:0%;
+    position:absolute;
+    text-align: center;
+    font-style: center;
+    margin-left:2px;    position:fixed;
+}
+div[id="footer-text2"]{
+    color: rgb(255, 255, 255);
+    bottom:0%;
+    right:1%;
+    left:10px;
+    position:absolute;
+  text-align: right;    position:fixed;
+  
+    
+}
+
+
+div[id="footer-text3"]{
+    color: rgb(255, 255, 255);
+    bottom:0%;
+    left:220px;    position:fixed;
+    position:absolute;
+  text-align: right;
+  
+  position:fixed;
+}
+
+span[id="txt"]{
+    color:rgb(223, 79, 79);
+}
+span[id="stat"]{
+    color:rgb(223, 79, 79);
+}
+span[id="regiune"]{
+    color:rgb(70, 134, 57);
+}
+span[id="oras"]{
+    color:rgb(110, 153, 218);
+}
+div[id="titlu-categorie"]{
+    color: rgba(46, 71, 54, 0.555);font-family: 'Press Start 2P', cursive;
+    text-shadow: 1px 1px #0ac95a;
+    font-size:20px
+     
+}
+img[id="down_but"]{
+    width: 20px;
+}
+span[id="down"]{
+    color:#0ac95a;
+}
+span[id="Nume_joc"]{
+    color:#bdc7c6;
+}
+div[id="bg_down"]{
+    background: rgba(0, 5, 17, 0.877);
+    width: 250px;
+    padding-top: 5px;
+    margin-top: -10px;
+}
+img[id="lll"]{
+    width: 250px;
+
+    zoom: 100%;
+}
